@@ -4,7 +4,7 @@ import Auxil from '../../hoc/Auxil'
 import MenuItem from 'material-ui/MenuItem';
 import SelectField from 'material-ui/SelectField';
 import axios from 'axios';
-import ImageResults from '../../components/Imageresults/ImageResults';
+import ImageResults from '../../containers/Imageresults/ImageResults';
 import { ClimbingBoxLoader, RingLoader } from 'react-spinners';
 
 
@@ -14,7 +14,7 @@ class Search extends Component {
         searchText: '',
         amount: 15,
         apiURL: 'https://pixabay.com/api',
-        apiKey: 'Enter Your own Api Key',
+        apiKey: 'Enter your own api key',
         images: [],
         emptySearch: 'Please Start Searching'
     };
